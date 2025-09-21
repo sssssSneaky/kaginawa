@@ -4,7 +4,7 @@ A hook for helping privilege escalation
 
 ## Scenario
 
-You have code execution on an linux account with sudo privileges but cannot find a privilege escalation exploit.
+You have code execution in a linux account with sudo privileges, but cannot find a privilege escalation exploit.
 
 A common technique in this case is creating a "sudo proxy", which is basically a function that wraps the sudo command to capture the user's credentials or execute a privileged action.
 
