@@ -40,7 +40,7 @@ sudo() {
 }
 ```
 
-The very same attack can be performed via LD_PRELOAD hooks. Kaginawa hooks the bash's execve wrapper and run a custom command stored at "fake_argv".
+The same attack can be performed using LD_PRELOAD hooks. Kaginawa hooks Bash's execve wrapper and runs a custom command stored in "fake_argv".
 
 - First Step: Drop kaginawa into target system. For example:
 
